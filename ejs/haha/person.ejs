@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<% for (var i = 0;i < person.length;i++){
+    let item = person[i] %>
+    <ul>
+        <li>姓名: <%=item.name%></li>
+        <li>年龄: <%=item.age%></li>
+    </ul>
+<%}%>
+</body>
+</html>
